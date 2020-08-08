@@ -77,9 +77,18 @@ $( function() {
   <a href="javascript:openNav()" class="nav-start">
     <img alt="Start" src="https://www.shareicon.net/data/512x512/2015/10/07/113985_windows_512x512.png" width="32" height="32">
   </a>
-  <a href="#spotify">
-  <img alt="Spotify" src="./assets/spotify.png">
-  </a>
+  <input class="spoilerbutton1" type="image" src="./assets/spotify.png" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
+  <div class="spoiler">
+    <div id="mydiv">
+      <div class='resizers'>
+        <div class='resizer top-left'></div>
+        <div class='resizer top-right'></div>
+        <div class='resizer bottom-left'</div>
+        <div class='resizer bottom-right'</div>
+      </div>
+      <iframe src="https://open.spotify.com"></iframe>
+    </div>
+  </div>
 </div>
 
 <div id="mySidenav" class="sidenav" style="z-index:100; position: fixed;">
