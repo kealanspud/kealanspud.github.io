@@ -3,12 +3,6 @@
 <head>
 <title>WinHTML5</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
-<link rel="stylesheet" href="reveal.css">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script type="text/javascript" src="jquery.reveal.js"></script>
 <script src="https://kit.fontawesome.com/6e99e67e22.js" crossorigin="anonymous"></script>
 <script>
 $( function() {
@@ -29,20 +23,11 @@ $( function() {
 
 </pre>
 
-<input class="spoilerbutton" type="image" src="./assets/chrome.png" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
+<input class="spoilerbutton" type="image" src="./assets/spotify.png" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
 <div class="spoiler">
   <div id="mydiv">
-    <div class='resizers'>
-      <div class='resizer top-left'></div>
-      <div class='resizer top-right'></div>
-      <div class='resizer bottom-left'</div>
-      <div class='resizer bottom-right'</div>
-    </div>
-    <div id="mydivheader">Setup</div>
-    <p>Hello There,</p>
-    <p>Welcome to WinHTML5.</p>
-    <p>Let's Get You Set Up!</p>
-    <a href="#next">OK</a>
+    <div id="mydivheader">Spotify</div>
+    <iframe src="https://open.spotify.com" width="500" height="300"></iframe>
   </div>
 </div>
 </div>
@@ -77,19 +62,6 @@ $( function() {
   <a href="javascript:openNav()" class="nav-start">
     <img alt="Start" src="https://www.shareicon.net/data/512x512/2015/10/07/113985_windows_512x512.png" width="32" height="32">
   </a>
-  <input class="spoilerbutton1" type="image" src="./assets/spotify.png" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
-  <div class="spotify-web">
-    <div id="window">
-      <div class='resizers'>
-        <div class='resizer top-left'></div>
-        <div class='resizer top-right'></div>
-        <div class='resizer bottom-left'</div>
-        <div class='resizer bottom-right'</div>
-      </div>
-      <iframe src="https://open.spotify.com"></iframe>
-    </div>
-  </div>
-</div>
 
 <div id="mySidenav" class="sidenav" style="z-index:100; position: fixed;">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
