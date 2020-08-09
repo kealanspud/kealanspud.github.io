@@ -20,7 +20,7 @@ src: local('Segoe UI Regular'), url('./fonts/Segoe UI.woff') format('woff');
 }
 
 .shortcut {
-  color: white;
+  color: #282828;
   position: relative;
 }
 
