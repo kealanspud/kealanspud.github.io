@@ -6,7 +6,7 @@ src: local('Segoe UI Regular'), url('./fonts/Segoe UI.woff') format('woff');
 }
 
 .body {
-    background-image: url('./assets/bgr.jpg');
+    background-image: url('./assets/home.jpg');
     background-size: fill;
     font-family: 'Segoe UI Regular', Arial;
     overflow-x: hidden;
@@ -14,7 +14,7 @@ src: local('Segoe UI Regular'), url('./fonts/Segoe UI.woff') format('woff');
 }
 
 .bannertext {
-  color: #282828;
+  color: white;
   position: relative;
   left: 10%;
 }
