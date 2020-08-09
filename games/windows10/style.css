@@ -14,13 +14,13 @@ src: local('Segoe UI Regular'), url('./fonts/Segoe UI.woff') format('woff');
 }
 
 .bannertext {
-  color: white;
+  color: #282828;
   position: relative;
   left: 10%;
 }
 
 .shortcut {
-  color: #282828;
+  color: white;
   position: relative;
 }
 
